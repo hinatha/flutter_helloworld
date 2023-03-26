@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false, // remove debug banner on top of right.
     );
   }
 }
@@ -37,6 +38,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
+            Icon(
+              Icons.language,
+            ),
             Text(
               'Hello, world!',
             ),
