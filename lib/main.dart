@@ -40,6 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: const <Widget>[
             Icon(
               Icons.language,
+              size: 30, // or any other desired size
+              color: Colors.blue,
             ),
             Text(
               'Hello, world!',
