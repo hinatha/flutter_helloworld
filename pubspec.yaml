@@ -18,6 +18,9 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+
+  # This library is to used to set app icons.
+  # FYI: https://pub.dev/packages/flutter_launcher_icons
   flutter_launcher_icons: "^0.12.0"
 
 flutter:
